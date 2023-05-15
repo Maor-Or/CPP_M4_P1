@@ -5,10 +5,10 @@ namespace ariel
 {
     class Character
     {
-    private:
+    protected:
         Point _location;
         int _hitPoints;
-        string _name;
+        std::string _name;
 
     public:
         Character(std::string name, Point characterLoction);
@@ -20,7 +20,7 @@ namespace ariel
     void hit(int dmg);
     std::string getName() const;
     Point getLocation() const;
-    virtual void print()const;
+    virtual std::string print()const;
 
     //my added functions:
     

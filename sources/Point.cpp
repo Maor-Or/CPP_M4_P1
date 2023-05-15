@@ -20,6 +20,7 @@ namespace ariel
         return sqrt( pow((_x - other.getX()) , 2)  +  pow((_y - other.getY()) , 2) );
     }
     void Point::print(){std::cout << "("<<_x <<","<< _y<<")";}
+    //TODO: implement this func:
     Point Point::moveTowards(Point origin, Point destination, double distance)
     {
         return{1,1};
