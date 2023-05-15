@@ -1,5 +1,4 @@
 #include "Ninja.hpp"
-#include <string>
 
 namespace ariel
 {

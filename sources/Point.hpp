@@ -18,7 +18,7 @@ namespace ariel
         //functions to implement:
         double distance(Point other);  //sqrt((x1-x2)^2 +(y1-y2)^2)
         void print();
-        Point moveTowards(Point origin, Point destination, double distance);
+        static Point moveTowards(Point origin, Point destination, double distance);
 
         //my added functions:
         double getX();

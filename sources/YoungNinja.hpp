@@ -1,8 +1,11 @@
+#pragma once
+
 #include "Ninja.hpp"
+#include <string>
 
 namespace ariel
 {
-    class YoungNinja : Ninja
+    class YoungNinja : public Ninja
     {
     private:
         /* data */
@@ -11,15 +14,6 @@ namespace ariel
         ~YoungNinja();
     };
     
-    YoungNinja::YoungNinja(std::string name, Point characterLoction)
-    :Ninja(name,characterLoction)
-    {
-        _hitPoints = 100;
-        _speed = 14;
-    }
-    
-    YoungNinja::~YoungNinja()
-    {
-    }
+   
     
 } // namespace ariel

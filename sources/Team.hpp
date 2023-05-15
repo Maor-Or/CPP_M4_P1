@@ -12,19 +12,18 @@ namespace ariel
     class Team
     {
     private:
-        /* data */
+        Character *_leader;
+
     public:
-        Team(/* args */);
+        // constructors:
+        Team(Character *leader);
         ~Team();
+
+        // functions to implement:
+        void add(Character *newTeamMember);
+        void attack(Team * enemyTeam);
+        int stillAlive(); 
+        void print();
     };
-    
-    Team::Team(/* args */)
-    {
-    }
-    
-    Team::~Team()
-    {
-    }
-    
 
 };

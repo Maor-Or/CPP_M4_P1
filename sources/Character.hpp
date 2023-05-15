@@ -1,6 +1,6 @@
 #pragma once
 #include "Point.hpp"
-//#include <string>
+#include <string>
 namespace ariel
 {
     class Character

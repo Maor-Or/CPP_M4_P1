@@ -1,5 +1,3 @@
-#pragma once
-
 #include "Character.hpp"
 #include <string>
 #include <iostream>
@@ -29,10 +27,9 @@ namespace ariel
     Point Character::getLocation() const { return _location; }
     string Character::print() const
     {
-        if (isAlive())
-        {
-            return "C/N";
-        }
+        // if (isAlive())
+
+        return "C/N";
     }
 
     // my added functions:
